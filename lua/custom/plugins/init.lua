@@ -30,5 +30,12 @@ return {
         org_default_notes_file = '~/orgfiles/refile.org',
       })
     end,
-  }
+  },
+  {
+      "kdheepak/lazygit.nvim",
+      -- optional for floating window border decoration
+      dependencies = {
+          "nvim-lua/plenary.nvim",
+      },
+  },
 }
