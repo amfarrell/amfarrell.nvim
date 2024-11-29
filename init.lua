@@ -56,6 +56,10 @@ require 'options'
 -- [[ Basic Keymaps ]]
 require 'keymaps'
 
+-- [[ Install luarocks ]]
+-- (lua package manager)
+require 'luarocks-setup'
+
 -- [[ Configure Telescope ]]
 -- (fuzzy finder)
 require 'telescope-setup'
@@ -71,6 +75,10 @@ require 'lsp-setup'
 -- [[ Configure nvim-cmp ]]
 -- (completion)
 require 'cmp-setup'
+
+-- [[ Configure hologram ]]
+-- (image viewer)
+require 'hologram-setup'
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
